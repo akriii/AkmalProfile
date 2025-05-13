@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<head>
+    <title>Timetable</title>
+
+    <script>
+        function popUpMessage(courseName, lecturerName){
+            alert("Course Name: "+ courseName + "\nLecturer Name: " + lecturerName)
+        }
+
+    </script>
+    <style>
+        body {
+            background-image: url("images/background_img_2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .white-text {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+        header {
+            background-color: #b50404;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .timetable-content {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            margin-top: 5%;
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+            margin-bottom: 20%;
+        }
+
+        td, th, tr {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 15px;
+        }
+
+        .table-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        .logo-content {
+  width: 50px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+        
+    </style>
+</head>
+
+<body class="white-text">
+    <img src="images/ChatGPT_Image_Apr_20__2025__02_57_28_PM-removebg-preview.png" class="logo-content" alt="Logo">
+  
+    <h1>Semester 4 Timetable for Class A</h1>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th style="width: 20%;">Time/Day</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+            </tr>
+            <tr>
+                <th>8.00 a.m</th>
+                <td></td>
+                <td><a href="#" onclick="popUpMessage('Introduction To Probability And Statistics','Nurul Husna Binti Jamian')">STA116</a></td>
+                <td></td>
+                <td><a href="#" onclick="popUpMessage('Information System Development','\nAhmad Farid Bin Najmuddin  \nDr. Azilawati Binti Azizan')">ISP250</a></td>
+               
+            </tr>
+            <tr>
+                <th>9.00 a.m</th>
+                <td></td>
+                <td><a href="#" onclick="popUpMessage('Introduction To Probability And Statistics','Nurul Husna Binti Jamian')">STA116</a></td>
+                <td><a href="#" onclick="popUpMessage('Information System Development','\nAhmad Farid Bin Najmuddin  \nDr. Azilawati Binti Azizan')">ISP250</a></td>
+                <td><a href="#" onclick="popUpMessage('Information System Development','\nAhmad Farid Bin Najmuddin  \nDr. Azilawati Binti Azizan')">ISP250</a></td>
+               
+            </tr>
+            <tr>
+                <th>10.00 a.m</th>
+                <td><a href="#" onclick="popUpMessage('Digital Electronics','Samsiah Binti Ahmad')">ITT270</a></td>
+                <td><a href="#" onclick="popUpMessage('Fundamentals Of Entrepreneurship','Hanis Marhaini Binti Masri')">ENT300</a></td>
+              <td><a href="#" onclick="popUpMessage('Information System Development','\nAhmad Farid Bin Najmuddin  \nDr. Azilawati Binti Azizan')">ISP250</a></td>
+              <td><a href="#" onclick="popUpMessage('Fundamentals Of Entrepreneurship','Hanis Marhaini Binti Masri')">ENT300</a></td>
+             
+            </tr>
+            <tr>
+                <th>11.00 a.m</th>
+                <td><a href="#" onclick="popUpMessage('Digital Electronics','Samsiah Binti Ahmad')">ITT270</a></td>
+                <td><a href="#" onclick="popUpMessage('Digital Electronics','Samsiah Binti Ahmad')">ITT270</a></td>
+                <td><a href="#" onclick="popUpMessage('Introduction To Data Communication And Networking','Lily Marlia Binti Abdul Latif')">ITT300</a></td>
+                <td><a href="#" onclick="popUpMessage('Fundamentals Of Entrepreneurship','Hanis Marhaini Binti Masri')">ENT300</a></td>
+             
+            </tr>
+            <tr>
+                <th>12.00 p.m</th>
+                <td></td>
+                <td><a href="#" onclick="popUpMessage('Digital Electronics','Samsiah Binti Ahmad')">ITT270</a></td>
+               <td><a href="#" onclick="popUpMessage('Introduction To Data Communication And Networking','Lily Marlia Binti Abdul Latif')">ITT300</a></td>
+               <td></td>
+            </tr>
+            <tr>
+                <th>1.00 p.m</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>2.00 p.m</th>
+                <td><a href="#" onclick="popUpMessage('Introduction To Web And Mobile Application','Siti Rozanae Binti Ismail')">CSC264</a></td>
+                <td><a href="#" onclick="popUpMessage('Introduction To Data Communication And Networking','Lily Marlia Binti Abdul Latif')">ITT300</a></td>
+               
+                <td><a href="#" onclick="popUpMessage('Introduction To Web And Mobile Application','Siti Rozanae Binti Ismail')">CSC264</a></td>
+                <td><a href="#" onclick="popUpMessage('Introduction To Probability And Statistics','Nurul Husna Binti Jamian')">STA116</a></td>
+                
+            </tr>
+            <tr>
+                <th>3.00 p.m</th>
+                <td><a href="#" onclick="popUpMessage('Introduction To Web And Mobile Application','Siti Rozanae Binti Ismail')">CSC264</a></td>
+                <td><a href="#" onclick="popUpMessage('Introduction To Data Communication And Networking','Lily Marlia Binti Abdul Latif')">ITT300</a></td>
+               <td><a href="#" onclick="popUpMessage('Introduction To Web And Mobile Application','Siti Rozanae Binti Ismail')">CSC264</a></td>
+                <td><a href="#" onclick="popUpMessage('Introduction To Probability And Statistics','Nurul Husna Binti Jamian')">STA116</a></td>
+                
+            </tr>
+            <tr>
+                <th>4.00 p.m</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>5.00 p.m</th>
+                <td><a href="#" onclick="popUpMessage('Integrity And Anti-Corruption','Shaidatul Azawiyah Binti Mohd Shahar')">HGD344</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>6.00 p.m</th>
+                <td><a href="#" onclick="popUpMessage('Integrity And Anti-Corruption','Shaidatul Azawiyah Binti Mohd Shahar')">HGD344</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>7.00 p.m</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
